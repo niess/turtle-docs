@@ -1,0 +1,11 @@
+{
+    "name":   "PUMAS",
+    "github": "niess/turtle",
+    "input":  "include",
+    "favicon": "images/favicon.ico",
+    "logo": ["images/turtle-black.png", "http://niess.github.io/turtle"],
+    "prefix": "turtle_",
+    "output-repository": "docs",
+    "output-branch": "master",
+    "output-path": "docs"
+}
