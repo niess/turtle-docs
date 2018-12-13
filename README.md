@@ -1,5 +1,6 @@
 # API documentation for the TURTLE library
-( **T**opographic **U**tilities for **R**endering **T**he e**LE**vation )
+( **T**opographic **U**tilities for t**R**ansporting par**T**icules over
+  **L**ong rang**E**s )
 
 ## Description
 

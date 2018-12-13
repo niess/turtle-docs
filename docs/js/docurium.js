@@ -544,19 +544,6 @@ $(function() {
      }
   })
 
-  var FaviconView = Backbone.View.extend({
-    el: $('#favicon'),
-    template: _.template($('#favicon-template').html()),
-
-    initialize: function() {
-      this.listenTo(this.model, 'change:favicon', this.render)
-    },
-
-    render: function() {
-      this.$el.html(this.template({favicon: this.model.get('favicon')}))
-    },
-  })
-
   var MainView = Backbone.View.extend({
     el: $('#content'),
 
@@ -807,7 +794,6 @@ $(function() {
   var fileListView = new FileListView({model: fileList})
   var versionView = new VersionView({model: docurium})
   var versionPickerView = new VersionPickerView({model: docurium})
-  var faviconView = new FaviconView({model: docurium})
 
   searchCol.on('reset', function(col, prev) {
     if (col.length == 1) {
