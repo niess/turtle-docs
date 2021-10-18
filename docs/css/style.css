@@ -266,6 +266,11 @@ p.functionList a.introd {
   background: #cec;
 }
 
+p.longComment {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .changelog li.adds a {
   color: #393;
 }
